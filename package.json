@@ -2,6 +2,7 @@
   "name": "dribbble-template-01",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://atoui-zahreddine.github.com/dribbble-template-clone-01",
   "dependencies": {
     "cra-template": "1.1.2",
     "react": "^17.0.2",
@@ -11,6 +12,8 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "prettier": "^2.3.2"
   }
 }
