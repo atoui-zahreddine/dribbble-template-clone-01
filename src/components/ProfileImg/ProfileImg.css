@@ -1,0 +1,7 @@
+
+.App-header-profile-img{
+    cursor: pointer;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+}

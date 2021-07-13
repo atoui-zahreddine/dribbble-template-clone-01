@@ -1,12 +1,14 @@
 import "./App.css";
 import Header from "./components/Header/Header";
-
+import LeftSection from "./components/LeftSection/LeftSection";
+import MainSection from "./components/MainSection/MainSection";
 
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <section className="App-left-section"/>
+      <Header />
+      <LeftSection />
+      <MainSection/>
     </div>
   );
 }
