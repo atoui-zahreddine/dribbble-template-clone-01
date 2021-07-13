@@ -134,6 +134,13 @@ const elements = [
     sourceHandle: "d",
   },
   {
+    id: "e4d-5",
+    type: "smoothstep",
+    source: "5",
+    target: "6",
+    sourceHandle: "e",
+  },
+  {
     id: "e1f-7",
     type: "smoothstep",
     source: "1",
@@ -160,7 +167,7 @@ const elements = [
 ];
 
 const nodeTypes = {
-  customNode7:CustomNode7,
+  customNode7: CustomNode7,
   customNode5: CustomNode5,
   customNode6: CustomNode6,
   customNode4: CustomNode4,
@@ -171,7 +178,7 @@ const nodeTypes = {
 const graphStyles = { width: "100%", height: "95%" ,overflowX:"auto",overflowY:"auto"};
 
 const BasicGraph = () => (
-  <ReactFlow minZoom={0} maxZoom={0}  nodeTypes={nodeTypes} elements={elements} style={graphStyles} />
+  <ReactFlow nodesDraggable={false} minZoom={0} maxZoom={0}  nodeTypes={nodeTypes} elements={elements} style={graphStyles} />
 );
 
 export default BasicGraph;
