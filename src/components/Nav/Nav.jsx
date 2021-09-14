@@ -30,7 +30,7 @@ const Nav = () => {
             selected={selectedItem === index}
             onClick={() => setSelectedItem(index)}
           >
-            <Component />
+            <Component style={{ minWidth: "25px", minHeight: "25px" }} />
           </NavItem>
         ))}
       </ul>
