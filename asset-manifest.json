@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/dribbble-template-clone-01/static/css/main.d9ba7434.chunk.css",
-    "main.js": "/dribbble-template-clone-01/static/js/main.9cb059dd.chunk.js",
-    "main.js.map": "/dribbble-template-clone-01/static/js/main.9cb059dd.chunk.js.map",
+    "main.css": "/dribbble-template-clone-01/static/css/main.7371df7e.chunk.css",
+    "main.js": "/dribbble-template-clone-01/static/js/main.f9021e24.chunk.js",
+    "main.js.map": "/dribbble-template-clone-01/static/js/main.f9021e24.chunk.js.map",
     "runtime-main.js": "/dribbble-template-clone-01/static/js/runtime-main.93609ac7.js",
     "runtime-main.js.map": "/dribbble-template-clone-01/static/js/runtime-main.93609ac7.js.map",
     "static/js/2.9e6cf6eb.chunk.js": "/dribbble-template-clone-01/static/js/2.9e6cf6eb.chunk.js",
     "static/js/2.9e6cf6eb.chunk.js.map": "/dribbble-template-clone-01/static/js/2.9e6cf6eb.chunk.js.map",
     "index.html": "/dribbble-template-clone-01/index.html",
-    "static/css/main.d9ba7434.chunk.css.map": "/dribbble-template-clone-01/static/css/main.d9ba7434.chunk.css.map",
+    "static/css/main.7371df7e.chunk.css.map": "/dribbble-template-clone-01/static/css/main.7371df7e.chunk.css.map",
     "static/js/2.9e6cf6eb.chunk.js.LICENSE.txt": "/dribbble-template-clone-01/static/js/2.9e6cf6eb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.93609ac7.js",
     "static/js/2.9e6cf6eb.chunk.js",
-    "static/css/main.d9ba7434.chunk.css",
-    "static/js/main.9cb059dd.chunk.js"
+    "static/css/main.7371df7e.chunk.css",
+    "static/js/main.f9021e24.chunk.js"
   ]
 }
