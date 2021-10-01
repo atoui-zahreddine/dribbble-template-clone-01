@@ -1,15 +1,18 @@
-.App-main-section{
-    background-color:#EBEBDF;
+.App-main-section {
+    background-color: #EBEBDF;
     padding: 40px;
     width: 80%;
+    min-width: 1080px;
 }
-.main-section-header{
+
+.main-section-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-.header-layout-btn{
+
+.header-layout-btn {
 
     width: 6rem;
     height: 3rem;
@@ -19,7 +22,8 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.rounded-btn{
+
+.rounded-btn {
     width: 35px;
     height: 35px;
     display: flex;
@@ -27,23 +31,25 @@
     justify-content: center;
     border-radius: 50%;
     color: white;
-    }
-.rounded-btn.active{
+}
+
+.rounded-btn.active {
     transition: all 0.1s ease-in-out;
     color: #24282c;
     background-color: white;
 }
-.header-search-container{
+
+.header-search-container {
     width: 22rem;
     height: 3rem;
     border-radius: 30px;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     position: relative;
 }
 
-.search-input{
+.search-input {
     font-size: 1rem;
     outline: none;
     height: inherit;
@@ -51,10 +57,10 @@
     border-radius: inherit;
     background-color: white;
     border: none;
-    padding-left:3rem ;
+    padding-left: 3rem;
 }
 
-.search-btn{
+.search-btn {
     background-color: white;
     width: 3rem;
     color: #24282c;
@@ -65,9 +71,9 @@
     height: inherit;
 }
 
-.search-icon{
+.search-icon {
     position: absolute;
     left: 30px;
-    top:12px;
+    top: 12px;
     cursor: pointer;
 }
